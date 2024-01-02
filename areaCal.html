@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Calculation</title>
+</head>
+<body>
+   
+    <script>
+        document.write("----------- CALCULATION USING JAVASCRIPT -------------- <br/><br/>")
+        var height = parseFloat(prompt("Enter Height: "));
+        var width = parseFloat(prompt("Enter Width: "));
+        var radius = parseFloat(prompt("Enter Radius: "));
+        
+        document.write("Height is: " + height + "<br/>");
+        document.write("Width is: " + width + "<br/>");
+        document.write("Radius is: " + radius + "<br/>");
+        document.write("PI is: 3.1416" + "<br/>");
+
+        var triangle = (0.5*height*width);
+        document.write("Area of Triangle is: " + triangle + "<br/>");
+        var rectangle = (height*width);
+        document.write("Area of Rectangle is: " + rectangle + "<br/>");
+        var circle = (3.1416*radius*radius);
+        document.write("Area of Circle is: " + circle + "<br/>");
+        var square = (height*height);
+        document.write("Area of Square is: " + square + "<br/>");
+        
+    </script>
+
+
+</body>
+</html>

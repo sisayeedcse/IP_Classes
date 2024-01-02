@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temparature Calculation</title>
+</head>
+<body>
+
+
+    <script>
+        document.write("Temparature converter - <br/>");
+        var far = prompt("Enter farenheit- ");
+        var cel = prompt("Enter celsius- ");
+
+        var structC = ((far-32)*5)/9;
+        var structF = (((cel*9)/5)+32);
+        
+        document.write("<br/> Calcius to Fahrenheit Conversion: <br/>");
+        document.write(cel +" in farenheit is- " + structF +"<br/>");
+        
+        document.write("<br/> Fahrenheit to Calcius Conversion: <br/>");
+        document.write(far +" in celsius is- " + structC.toFixed(2) +"<br/>");
+
+    </script>
+    
+</body>
+</html>
